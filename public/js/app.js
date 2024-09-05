@@ -2,6 +2,10 @@ const socket = io();
 
 let authToken = localStorage.getItem('authToken');
 
+const API_URL = process.env.NODE_ENV === 'production' 
+  ? 'https://your-render-app-name.onrender.com' 
+  : 'http://localhost:3000';
+
 function createMatchCard(match) {
     return `
         <div class="bg-white rounded-lg shadow-md p-4">

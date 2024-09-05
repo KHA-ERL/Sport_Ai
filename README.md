@@ -71,7 +71,7 @@ This project is an AI-powered sports categorization and betting predictions web 
    npm start
    ```
 
-3. The server will be running at `http://localhost:3000` and the frontend will be available at `http://localhost:3001`
+3. The server will be running at `http://localhost:3000` and the frontend will be available at `http://localhost:3000`
 
 ## Usage
 
@@ -100,3 +100,35 @@ All endpoints except `/api/register` and `/api/login` require authentication.
 ## Testing
 
 Run the test suite with:
+
+```
+npm test
+```
+
+## Deployment
+
+### GitHub Deployment
+
+1. Create a new repository on GitHub.
+
+2. Initialize git in your local project folder (if not already done):
+   ```
+   git init
+   ```
+
+3. Add all files to git:
+   ```
+   git add .
+   ```
+
+4. Commit the changes:
+   ```
+   git commit -m "Initial commit"
+   ```
+
+5. Add the GitHub repository as a remote:
+   ```
+   git remote add origin https://github.com/yourusername/sports-betting-predictions.git
+   ```
+
+6. Push
