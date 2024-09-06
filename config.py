@@ -2,7 +2,7 @@
 API_CONFIG = {
     'sportsradar': {
         'base_url': 'https://api.sportsradar.com/v1/',
-        'api_key': '1KZUYRVxgZ7O0zkrUNtz84TTm3DVcT771aKjKD0W'
+        'api_key': 'your_sportsradar_api_key'
     },
     '1xbet': {
         'base_url': 'https://api.1xbet.com/v1/',
