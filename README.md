@@ -67,7 +67,6 @@ This project is an AI-powered sports categorization and betting predictions web 
 
 2. Start the React frontend:
    ```
-   cd frontend
    npm start
    ```
 
