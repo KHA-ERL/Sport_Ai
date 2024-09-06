@@ -66,7 +66,7 @@ This project is an AI-powered sports categorization and betting predictions web 
 
 2. Start the React frontend:
    ```
-   npm start
+   npm run start
    ```
 
 3. The server will be running at `http://localhost:3000` and the frontend will be available at `http://localhost:3000`
