@@ -40,7 +40,6 @@ This project is an AI-powered sports categorization and betting predictions web 
 
 4. Install React frontend dependencies:
    ```
-   cd frontend
    npm install
    ```
 
